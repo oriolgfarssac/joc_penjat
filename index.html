@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💀 El Penjat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="c-penjat">
+        <div class="c-penjat__interfice">
+            <input type="password" name="paraula" id="paraula" class="c-penjat__interfice-input" placeholder="Introdueix la paraula a endevinar...">
+            <button class="c-penjat__interfice-eye" id="eye" onclick="mostrar()">👁️</button>
+            <button class="c-penjat__interfice-button" onclick="comprovarParaula()">Començar Partida</button>
+        </div>
+        <div class="c-penjat__contingut">
+            <h1 class="c-penjat__contingut-title" id="title">Començar Partida</h1>
+            <div class="c-penjat__contingut-jugadors">
+                <div class="c-penjat__contingut-jugador1">
+                    <h2 class="c_penjat__contingut-jugador1-name">JUGADOR 1</h2>
+                    <h5 class="c-penjat__contingut-jugador1-data">PUNTS PARTIDES ACTUALS: <span id="punts-jugador1"></span></h5>
+                    <h5 class="c-penjat__contingut-jugador1-data">TOTAL PARTIDES: <span id="partides-jugador1"></span></h5>
+                    <h5 class="c-penjat__contingut-jugador1-data">PARTIDES GUANYADES: <span id="partides-guanyades-jugador1"></span></h5>
+                    <h5 class="c-penjat__contingut-jugador1-data">PARTIDA AMB MÉS PUNTS: <span id="millor-partida-jugador1"></span></h5>
+                </div>
+                <div class="c-penjat__contingut-status">
+                    <img src="./assets/penjat_0.jpg" alt="" class="c-penjat__contingut-img">
+                </div>
+                <div class="c-penjat__contingut-jugador2">
+                    <h2 class="c_penjat__contingut-jugador2-name">JUGADOR 2</h2>
+                    <h5 class="c-penjat__contingut-jugador2-data">PUNTS PARTIDES ACTUALS: <span id="punts-jugador2"></span></h5>
+                    <h5 class="c-penjat__contingut-jugador2-data">TOTAL PARTIDES: <span id="partides-jugador2"></span></h5>
+                    <h5 class="c-penjat__contingut-jugador2-data">PARTIDES GUANYADES: <span id="partides-guanyades-jugador2"></span></h5>
+                    <h5 class="c-penjat__contingut-jugador2-data">PARTIDA AMB MÉS PUNTS: <span id="millor-partida-jugador2"></span></h5>
+                </div>
+            </div>
+        </div>
+        <div class="c-penjat_lletres">
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">A</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">B</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">C</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">D</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">E</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">F</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">G</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">H</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">I</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">J</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">K</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">L</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">M</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">N</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">O</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">P</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">Q</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">R</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">S</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">T</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">U</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">V</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">W</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">X</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">Y</button>
+            <button class="c-penjat__lletra" onclick="provarLletra(this)">Z</button>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
